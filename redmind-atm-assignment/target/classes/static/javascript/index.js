@@ -24,7 +24,7 @@ function Withdraw() {
     let fiveHundredBillAmount = 0;
     let thousandBillAmount = 0;
 
-// I use ajax to execute a post request to my application.
+        // I use ajax to execute a post request to my application.
     $.ajax({
         // The url is the same as in the ATMController class where the post method resides.
         url: `/ATM/1/withdraw/` + amount,

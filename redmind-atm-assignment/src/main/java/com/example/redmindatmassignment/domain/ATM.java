@@ -22,6 +22,9 @@ public class ATM {
         this.billList = billList;
     }
 
+    public ATM() {
+
+    }
     public Long getId() {
         return id;
     }
